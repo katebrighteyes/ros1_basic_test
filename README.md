@@ -52,6 +52,10 @@ rostopic echo /counter
 
 rqt_graph
 
+## launch
+
+roslaunch ros_basic_topicmsg launch_test.launch
+
 * 모든 창을 닫아주세요
 
 ## Service Test
@@ -78,3 +82,42 @@ rosservice call /word_counter "Hello my friend?"
 
 * 모든 창을 닫아주세요
 
+## Action Service Test (기본)
+
+<새터미널> 
+
+roscore
+
+<새터미널> 
+
+rosrun ros_basic_action simple_action_server.py
+
+<새터미널> 
+
+rosrun ros_basic_action simple_action_client.py
+
+<새터미널> 
+
+rostopic list
+
+* 모든 창을 닫아주세요
+
+## Action Service Test (full)
+
+<새터미널> 
+
+roscore
+
+<새터미널> 
+
+rosrun ros_basic_asynctest async_action_server.py
+
+<새터미널> 
+
+rosrun ros_basic_asynctest async_action_client.py
+
+<새터미널> 
+
+rostopic list
+
+* 모든 창을 닫아주세요

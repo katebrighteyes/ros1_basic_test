@@ -76,9 +76,9 @@ rosrun ros_basic_service srv_client.py Hello my friend
 
 rosservice list
 
-rosservice info /word_counter
+rosservice info /word_count
 
-rosservice call /word_counter "Hello my friend?"
+rosservice call /word_count "Hello my friend?"
 
 * 모든 창을 닫아주세요
 

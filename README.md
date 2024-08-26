@@ -121,3 +121,28 @@ rosrun ros_basic_asynctest async_action_client.py
 rostopic list
 
 * 모든 창을 닫아주세요
+
+## Camera 테스트
+
+<새터미널> 
+
+roslaunch ros_sensor_test camera_test.launch
+
+카메라 창에서 'q'를 눌러서 종료
+
+터미널에서 Ctl-C
+
+## Lidar 테스트
+
+<새터미널> 
+
+rosrun hls_lfcd_lds_driver view_hlds_laser.launch
+
+## Lidar 테스트
+
+<새터미널> 
+
+rosrun ros_sensor_test lidar_nodeL.py
+
+<손을 가까이 대어 터미널 창의 메시지 로그 확인>
+

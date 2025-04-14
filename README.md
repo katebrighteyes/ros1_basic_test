@@ -140,10 +140,11 @@ rosrun hls_lfcd_lds_driver view_hlds_laser.launch
 
 ## Lidar 테스트
 
+-----------------------------------------
 
 source /opt/ros/foxy/setup.bash
 
-source /home/user/mybot_ros2_ws/install/setup.bash
+#source /home/user/mybot_ros2_ws/install/setup.bash
 
 export ROS_DOMAIN_ID=11
 

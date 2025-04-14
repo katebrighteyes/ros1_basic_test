@@ -1,0 +1,1000 @@
+  890  ls
+  891  ls -la
+  892  cat setup.py
+  893  ls
+  894  cd ..
+  895  ls
+  896  cd ..
+  897  colcon build
+  898  ls
+  899  rm -rf build
+  900  rm -rf install
+  901  rm -rf log
+  902  ls
+  903  cd mybot_ws
+  904  colcon build
+  905  ls
+  906  . install/setup.bash
+  907  ls
+  908  ros2 launch mybot_description mybot_description.launch.py 
+  909  ls
+  910  rm -rf build
+  911  rm -rf install
+  912  rm -rf log
+  913  rviz2
+  914  ls
+  915  cd mybot_ws
+  916  ls
+  917  . install/setup.bash
+  918  rviz2
+  919  cd mybot_ws/
+  920  ls
+  921  colcon build
+  922  ld
+  923  ls
+  924  cd build
+  925  ls
+  926  cd ..
+  927  ls
+  928  colcon build
+  929  source install/setup.bash
+  930  ls
+  931  ros2 launch mybot_description mybot_description.launch.py 
+  932  ls
+  933  cd mybot_ws
+  934  ls
+  935  cd src
+  936  ls
+  937  cd mybot_description/
+  938  ls
+  939  vi setup.py
+  940  ls
+  941  mkdir rviz
+  942  ls
+  943  cd launch
+  944  ls
+  945  vi mybot_description.launch.py 
+  946  ls
+  947  vi mybot_description.launch.py 
+  948  ls
+  949  cd ..
+  950  ls
+  951  cd mybot_ws/
+  952  ls
+  953  colcon build
+  954  . install/setup.bash 
+  955  ros2 launch mybot_description mybot_description.launch.py 
+  956  ls
+  957  cd mybot_ws/
+  958  ls
+  959  . install/setup.bash 
+  960  ros2 launch mybot_description mybot_description.launch.py 
+  961  cd mybot_ws/
+  962  . ./install/setup.bash 
+  963  ros2 launch mybot_description mybot_description.launch.py 
+  964  exit
+  965  ls
+  966  cd rsaem_ws
+  967  ls
+  968  cd ..
+  969  ls
+  970  cd ..
+  971  cd rsaem_ws
+  972  ls
+  973  cd rsaem_ws
+  974  ls
+  975  cd ~
+  976  ls
+  977  ros2 topic list
+  978  ls
+  979  cd rsaem_ws
+  980  ls
+  981  cd src
+  982  sls
+  983  ls
+  984  cd ~
+  985  cd mybot_ws/
+  986  ls
+  987  cd ros2 pkg create --build-type ament_python mybot_gazebo
+  988  ls
+  989  cd src
+  990  ros2 pkg create --build-type ament_python mybot_gazebo
+  991  ls
+  992  cd mybot_
+  993  cd mybot_gazebo/
+  994  ls
+  995  mkdir launch
+  996  mkdir worlds
+  997  ls
+  998  cd launch
+  999  ls
+ 1000  vi mybot_gazebo.launch.py
+ 1001  ls
+ 1002  cd ~
+ 1003  ls
+ 1004  cd rsaem_ws
+ 1005  ls
+ 1006  ifconfig
+ 1007  ls
+ 1008  cd mybot_ws/
+ 1009  ls
+ 1010  cd src
+ 1011  ls
+ 1012  cd mybot_
+ 1013  cd mybot_gazebo/
+ 1014  ls
+ 1015  cd mybot_gazebo/
+ 1016  ls
+ 1017  cd ..
+ 1018  ls
+ 1019  cd launch
+ 1020  ls
+ 1021  cd ..
+ 1022  ls
+ 1023  cd ..
+ 1024  ls
+ 1025  cd mybot_gazebo/
+ 1026  ls
+ 1027  cd ..
+ 1028  ls
+ 1029  cd ..
+ 1030  ls
+ 1031  colcon build
+ 1032  . install/setup.bash 
+ 1033  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1034  ks
+ 1035  ls
+ 1036  colcon build
+ 1037  . install/setup.bash 
+ 1038  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1039  gazebo
+ 1040  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1041  ls
+ 1042  colcon build
+ 1043  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1044  ls
+ 1045  ps ax
+ 1046  ls
+ 1047  cd mybot_ws/
+ 1048  ls
+ 1049  . install/setup.bash 
+ 1050  ls
+ 1051  ros2 run rsaem_teleop teleop_keyboard.py
+ 1052  ros2 run rsaem_teleop teleop_keyboard
+ 1053  ros2 run rsaem_teleop teleop_keyboard
+ 1054  . install/setup.bash 
+ 1055  ros2 run rsaem_teleop teleop_keyboard
+ 1056  nvidia smi
+ 1057  nvidia-smi
+ 1058  ls
+ 1059  cd mybot_ws
+ 1060  ls
+ 1061  colcon build
+ 1062  . install/setup.bash 
+ 1063  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1064  colcon build
+ 1065  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1066  ls
+ 1067  ros2 topic list
+ 1068  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1069  colcon build
+ 1070  . install/setup.bash 
+ 1071  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1072  sudo reboot
+ 1073  cd mybot_ws/
+ 1074  ls
+ 1075  . install/setup.bash 
+ 1076  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1077  colcon build
+ 1078  ls
+ 1079  rm -rf build
+ 1080  rm -rf install
+ 1081  rm -rf log
+ 1082  colcon build
+ 1083  ;s
+ 1084  ls
+ 1085  rostopic list
+ 1086  ros2 topic list
+ 1087  cd mybot_ws
+ 1088  ls
+ 1089  . install/setup.bash 
+ 1090  ros2 launch rsaem_teleop teleop_keyboard
+ 1091  ros2 launch rsaem_teleop teleop_keyboard.py
+ 1092  ros2 launch rsaem_teleop teleop_keyboard
+ 1093  ls
+ 1094  . install/setup.bash 
+ 1095  ros2 run rsaem_teleop teleop_keyboard 
+ 1096  sudo reboot
+ 1097  rostopic list
+ 1098  ros2 topic list
+ 1099  ros2 topip echo /cmd_vel
+ 1100  ros2 topic echo /cmd_vel
+ 1101  ls
+ 1102  cd mybot_ws/
+ 1103  colcon build
+ 1104  . install/setup.bash 
+ 1105  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1106  colcon build
+ 1107  . install/setup.bash 
+ 1108  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1109  ls
+ 1110  cd mybot_ws/
+ 1111  ls
+ 1112  mr -rf build
+ 1113  r, -rf build
+ 1114  rm -rf build
+ 1115  rm -rf install
+ 1116  rm -rf log
+ 1117  ls
+ 1118  colcon build
+ 1119  ls
+ 1120  . install/setup.bash 
+ 1121  ros2 topic list
+ 1122  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1123  ros2 topic echo /odom
+ 1124  cd mybot_ws/
+ 1125  ls
+ 1126  . install/setup.bash 
+ 1127  ls
+ 1128  rviz2
+ 1129  rostopic list
+ 1130  ros2 topic list
+ 1131  cd mybot_ws/
+ 1132  ls
+ 1133  . install/setup.bash 
+ 1134  ros2 run rsaem_teleop teleop_keyboard 
+ 1135  . install/setup.bash 
+ 1136  ros2 run rsaem_teleop teleop_keyboard 
+ 1137  ros2 topic list
+ 1138  ls
+ 1139  cd mybot_ws/
+ 1140  ls
+ 1141  . install/setup.bash 
+ 1142  ros2 run rsaem_teleop teleop_keyboard 
+ 1143  ls
+ 1144  ls
+ 1145  cd mybot_ws
+ 1146  ls
+ 1147  rm -rf build
+ 1148  rm -rf install
+ 1149  rm -rf log
+ 1150  ls
+ 1151  colcon build
+ 1152  . install/setup.bash 
+ 1153  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1154  ls
+ 1155  pf ax
+ 1156  ps ax
+ 1157  ls
+ 1158  colcon build
+ 1159  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1160  ls
+ 1161  colcon build
+ 1162  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1163  ls
+ 1164  cd mybot_ws/
+ 1165  colcon build
+ 1166  . install/setup.bash 
+ 1167  ls
+ 1168  ros2 launch mybot_description mybot_description.launch.py 
+ 1169  colcon build
+ 1170  ros2 launch mybot_description mybot_description.launch.py 
+ 1171  colcon build
+ 1172  ros2 launch mybot_description mybot_description.launch.py 
+ 1173  colcon build
+ 1174  ros2 launch mybot_description mybot_description.launch.py 
+ 1175  colcon build
+ 1176  ros2 launch mybot_description mybot_description.launch.py 
+ 1177  ros2 launch mybot_description mybot_description_rviz.launch.py 
+ 1178  ros2 launch mybot_description mybot_descripon.launch.py 
+ 1179  ros2 launch mybot_description mybot_description.launch.py 
+ 1180  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1181  clocon build
+ 1182  colcon build
+ 1183  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1184  ls
+ 1185  cd mybot_ws/
+ 1186  ls
+ 1187  . install/setup.bash 
+ 1188  ls
+ 1189  rmv2
+ 1190  rviz
+ 1191  rviz2
+ 1192  ros2 topic list
+ 1193  ros2 topic list /mybot
+ 1194  ls
+ 1195  rviz2
+ 1196  ls
+ 1197  cd mybot_ws
+ 1198  ls
+ 1199  . install/setup.bash 
+ 1200  rviz2
+ 1201  ros2 topic list
+ 1202  rviz2
+ 1203  ros2 topic list
+ 1204  ls
+ 1205  cd mybot_ws/
+ 1206  ls
+ 1207  cd src
+ 1208  cd ..
+ 1209  ls
+ 1210  rm -rf build/
+ 1211  rm -rfg install/
+ 1212  rm -rf install/
+ 1213  rm -rf log/
+ 1214  colcon build
+ 1215  . install/setup.bash 
+ 1216  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1217  colcon build
+ 1218  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1219  colcon build
+ 1220  . install/setup.bash 
+ 1221  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1222  colcon build
+ 1223  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1224  colcon build
+ 1225  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1226  colcon build
+ 1227  . install/setup.bash 
+ 1228  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1229  colcon build
+ 1230  . install/setup.bash 
+ 1231  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1232  cd /opt
+ 1233  ls
+ 1234  cd ros
+ 1235  ls
+ 1236  cd foxy
+ 1237  ls
+ 1238  cd share
+ 1239  ls
+ 1240  cd gazebo_ros
+ 1241  ls
+ 1242  cdc launch
+ 1243  cd launch
+ 1244  ls
+ 1245  cat gazebo.launch.py 
+ 1246  ls
+ 1247  cd ..
+ 1248  ls
+ 1249  cd launch
+ 1250  ls
+ 1251  gedit gazebo.launch.py 
+ 1252  ls
+ 1253  cd ..
+ 1254  ls
+ 1255  cd environment/
+ 1256  ls
+ 1257  cd ..
+ 1258  ls
+ 1259  cd cmake/
+ 1260  ls
+ 1261  cd ..
+ 1262  ls
+ 1263  cd ..
+ 1264  ls
+ 1265  cd ..
+ 1266  ls
+ 1267  cd src
+ 1268  ls
+ 1269  cd ..
+ 1270  ls
+ 1271  cd bin
+ 1272  ls
+ 1273  cd ..
+ 1274  ls
+ 1275  cd share
+ 1276  ls
+ 1277  cd gazebo_ros
+ 1278  ls
+ 1279  cd launch
+ 1280  ls
+ 1281  cat gzserver.launch.py 
+ 1282  ls
+ 1283  cat gazebo.launch.py
+ 1284  cd ~
+ 1285  ls
+ 1286  cd mybot_ws
+ 1287  ls
+ 1288  cd src
+ 1289  ls
+ 1290  cd mybot_gazebo/
+ 1291  ls
+ 1292  vi launch
+ 1293  cd launch
+ 1294  ls
+ 1295  bi mygazebo.launch.py
+ 1296  vi mygazebo.launch.py
+ 1297  ls
+ 1298  cd ..
+ 1299  ls
+ 1300  cd ..
+ 1301  ls
+ 1302  cd src
+ 1303  ls
+ 1304  colcon build
+ 1305  . install/setup.bash 
+ 1306  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1307  cd ~
+ 1308  mkdir test
+ 1309  cd test
+ 1310  git clone https://github.com/richardw05/mybot_ws.git
+ 1311  cdc ~
+ 1312  cd ~
+ 1313  cd mybot_ws/
+ 1314  colcon build
+ 1315  . install/setup.bash 
+ 1316  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1317  colcon build
+ 1318  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1319  colcon build
+ 1320  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1321  ls
+ 1322  rm -rf build 
+ 1323  rm -rf install
+ 1324  rm -rf log
+ 1325  colcon build
+ 1326  ls
+ 1327  rm -rf build
+ 1328  rm -rf install
+ 1329  rm -rf log
+ 1330  rostopic lsit
+ 1331  ros2 topic list
+ 1332  ls
+ 1333  cd ..
+ 1334  ls
+ 1335  cd ~
+ 1336  cd mybot_ws
+ 1337  . install/setup.bash 
+ 1338  ros2 launch mybot_description mybot_description_rviz.launch.py 
+ 1339  rviz2
+ 1340  ls
+ 1341  cd mybot_ws
+ 1342  ls
+ 1343  colcon build
+ 1344  . install/setup.bash 
+ 1345  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1346  cd ..
+ 1347  ls
+ 1348  cd ~
+ 1349  cd mybot_ws
+ 1350  colcon build
+ 1351  . install/setup.bash 
+ 1352  ros2 launch mybot_gazebo mybot_gazebo
+ 1353  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1354  ls
+ 1355  cd mybot_ws
+ 1356  . install/setup.bash 
+ 1357  ls
+ 1358  ros2 launch mybot_gazebo mybot_gazebo_rviz.launch.py 
+ 1359  cd mybot_ws
+ 1360  source install/setup.bash 
+ 1361  ros2 launch mybot_gazebo mybot_gazebo_rviz.launch.py 
+ 1362  ls
+ 1363  cd mybot_ws/
+ 1364  ls
+ 1365  rm -rf build
+ 1366  mr -rf install
+ 1367  rm -rf install
+ 1368  rm -rf log
+ 1369  ls
+ 1370  colcon build
+ 1371  ls
+ 1372  . install/setup.bash
+ 1373  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1374  ls 
+ 1375  rm -rf build
+ 1376  rm -rf install
+ 1377  rm -rf log
+ 1378  cd mybot_ws/
+ 1379  ls
+ 1380  colcon build
+ 1381  . install/setup.bash 
+ 1382  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1383  ls
+ 1384  cd mybot_ws
+ 1385  ls
+ 1386  . install/setup.
+ 1387  . install/setup.bash 
+ 1388  ros2 launch mybot_gazebo mybot_gazebo_rviz.launch.py 
+ 1389  cd mybot_ws
+ 1390  ls
+ 1391  . install/setup.bash 
+ 1392  ros2 run rsaem_teleop teleop_keyboard 
+ 1393  cd mybot_ws/
+ 1394  ls
+ 1395  . install/setup.bash 
+ 1396  ros2 run rsaem_teleop teleop_keyboard 
+ 1397  ls
+ 1398  cd mybot_ws/
+ 1399  ls
+ 1400  cd src
+ 1401  ls
+ 1402  cd ..
+ 1403  colcon build
+ 1404  . install/setup.bash 
+ 1405  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1406  colcon build
+ 1407  . install/setup.bash 
+ 1408  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1409  colcon build
+ 1410  . install/setup.bash 
+ 1411  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1412  . install/setup.bash 
+ 1413  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1414  ps ax
+ 1415  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1416  ps ax
+ 1417  kill -9 9514
+ 1418  kill -9 9527
+ 1419  ps ax
+ 1420  pstree
+ 1421  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1422  ls
+ 1423  os ax
+ 1424  ls
+ 1425  cd mybot_ws/
+ 1426  ps ax
+ 1427  . install/setup.bash 
+ 1428  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1429  sudo reboot
+ 1430  ls
+ 1431  cd mybot_ws/
+ 1432  . install/setup.
+ 1433  . install/setup.bash 
+ 1434  ls
+ 1435  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1436  colcon build
+ 1437  . install/setup.bash 
+ 1438  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1439  colcon build
+ 1440  . install/setup.bash 
+ 1441  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1442  colcon build
+ 1443  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1444  cd mybot_ws
+ 1445  . install/setup.bash 
+ 1446  ros2 run rsaem_teleop te
+ 1447  ros2 run rsaem_teleop teleop_keyboard 
+ 1448  ls
+ 1449  . install/setup.bash 
+ 1450  ros2 launch mybot_gazebo mybot_gazebo_rviz.launch.py 
+ 1451  . install/setup.bash 
+ 1452  ros2 launch mybot_gazebo mybot_gazebo_rviz.launch.py 
+ 1453  . install/setup.bash 
+ 1454  ros2 launch mybot_gazebo mybot_gazebo_rviz.launch.py 
+ 1455  ls
+ 1456  cd mybot_Ws
+ 1457  cd mybot_ws
+ 1458  ls
+ 1459  colcon build
+ 1460  . install/setup.bash
+ 1461  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1462  ls
+ 1463  ros2 topic list
+ 1464  ls
+ 1465  ros2 topic list
+ 1466  cd mybot_ws
+ 1467  . install/setup.bash 
+ 1468  ros2 launch rsaem_cartographer cartographer.launch.py 
+ 1469  ros2 launch rsaem_cartographer cartographer.launch.py 
+ 1470  ros2 topic list
+ 1471  cd mybot_ws
+ 1472  ls
+ 1473  . install/setup.bash 
+ 1474  ros2 run rsaem_teleop teleop_keyboard 
+ 1475  rqt_graph
+ 1476  ros2 topic list
+ 1477  cd ..
+ 1478  ls
+ 1479  cd ~
+ 1480  ls
+ 1481  cd mybot_ws/
+ 1482  ls
+ 1483  . install/setup.bash 
+ 1484  ros2 topic list
+ 1485  rqt_graph
+ 1486  colcon build
+ 1487  ls
+ 1488  rm -rf build
+ 1489  rm -rf install
+ 1490  rm -rf log
+ 1491  cd mybot_ws
+ 1492  ls
+ 1493  colcon build
+ 1494  . install/setup.bash 
+ 1495  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1496  ls
+ 1497  rm -rf install
+ 1498  rm -rf builid
+ 1499  rm -rf log
+ 1500  colcon build
+ 1501  . install/setup.bash 
+ 1502  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1503  ls
+ 1504  colcon build
+ 1505  ls
+ 1506  . install/setup.bash 
+ 1507  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1508  ls
+ 1509  cd mybot_ws
+ 1510  . install/setup.bash 
+ 1511  ros2 launch rsaem_cartographer cartographer.launch.py 
+ 1512  apt-cache search carto
+ 1513  sudo apt install ros-foxy-cartographer-ros ros-foxy-cartographer-ros-msgs
+ 1514  ls
+ 1515  ros2 launch rsaem_cartographer cartographer.launch.py 
+ 1516  ros2 launch mybot_gazebo mybot_gazebo_rviz.launch.py 
+ 1517  ros2 launch rsaem_cartographer cartographer.launch.py 
+ 1518  ls
+ 1519  vi .bashrc
+ 1520  ws
+ 1521  ls
+ 1522  vi .bashrc
+ 1523  ws
+ 1524  colcon build
+ 1525  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1526  colcon build
+ 1527  ls
+ 1528  rm -rf build
+ 1529  rm -rf install
+ 1530  rm -rf log
+ 1531  ws
+ 1532  colcon build
+ 1533  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1534  sudo reboot
+ 1535  ws
+ 1536  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1537  colcon build
+ 1538  ws
+ 1539  ls
+ 1540  cw
+ 1541  ws
+ 1542  colcon build
+ 1543  ws/src
+ 1544  ws + '/src'
+ 1545  ws/src
+ 1546  ws /src
+ 1547  ws
+ 1548  ls
+ 1549  ws
+ 1550  ls
+ 1551  ros2 launch mybot_gazebo mybot_gazebo.launch.py
+ 1552  ros2 launch rsaem_cartographer cartographer.launch.py 
+ 1553  ws
+ 1554  ros2 launch rsaem_cartographer cartographer.launch.py 
+ 1555  ws
+ 1556  colcon build
+ 1557  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1558  ws
+ 1559  colcon build
+ 1560  ros2 launch rsaem_cartographer cartographer.launch.py 
+ 1561  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1562  ws
+ 1563  colcon build
+ 1564  ros2 topic list
+ 1565  rqt_graph
+ 1566  ws
+ 1567  rqt_graph
+ 1568  ros2 topic list
+ 1569  rqt_graph
+ 1570  cd ..
+ 1571  ls
+ 1572  ws
+ 1573  ls
+ 1574  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1575  colcon build
+ 1576  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1577  ros2 launch rsaem_cartographer cartographer.launch.py 
+ 1578  ws
+ 1579  colcon build
+ 1580  ls
+ 1581  rm -rf build
+ 1582  rm -rf install
+ 1583  rm -rf log
+ 1584  rqt_graph
+ 1585  ros topic list
+ 1586  ros2 topic list
+ 1587  rqt_graph all
+ 1588  rqt_graph
+ 1589  ws
+ 1590  ls
+ 1591  rqt_graph
+ 1592  . install/setup.ba
+ 1593  . install/setup.bash
+ 1594  rqt_graph
+ 1595  ros2 run rsaem_teleop teleop_keyboard 
+ 1596  ros2 topic list
+ 1597  ros2 launch rsaem_cartographer cartographer.launch.py 
+ 1598  gazebo
+ 1599  ws
+ 1600  ls
+ 1601  colcon build/
+ 1602  colcon build
+ 1603  . install/setup.bash 
+ 1604  ls
+ 1605  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1606  gazebo
+ 1607  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1608  ws
+ 1609  colcon build
+ 1610  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1611  ros2 launch rsaem_cartographer cartographer.launch.py 
+ 1612  ls
+ 1613  ws
+ 1614  colcon build
+ 1615  ros2 launch rsaem_cartographer cartographer.launch.py 
+ 1616  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1617  ws
+ 1618  colcon build
+ 1619  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1620  ros2 launch rsaem_cartographer cartographer.launch.py 
+ 1621  ws
+ 1622  colcon build
+ 1623  ros2 launch rsaem_cartographer cartographer.launch.py 
+ 1624  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1625  ws
+ 1626  colcon bluild
+ 1627  colcon build
+ 1628  ros2 launch rsaem_cartographer cartographer.launch.py 
+ 1629  ws
+ 1630  colcon build
+ 1631  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1632  ros2 launch rsaem_cartographer cartographer.launch.py 
+ 1633  ros2 run rsaem_teleop teleop_keyboard 
+ 1634  ws
+ 1635  colcon build
+ 1636  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1637  ros2 launch rsaem_cartographer cartographer.launch.py 
+ 1638  rostopiclist
+ 1639  ws
+ 1640  colcon build
+ 1641  ifconfig
+ 1642  ros2 run rsaem_teleop teleop_keyboard 
+ 1643  ros2 launch rsaem_cartographer cartographer.launch.py use_sim_time:=True
+ 1644  ros2 launch mybot_gazebo mybot_gazebo.launch.py 
+ 1645  ls
+ 1646  ifconfig
+ 1647  vi .bashrc
+ 1648  ws
+ 1649  ls
+ 1650  vi .bashrc
+ 1651  ws
+ 1652  colcon build
+ 1653  ros2 launch mybot_navigation2 navigation2.launch.py map:=$HOME/map.yaml
+ 1654  apt-cache search ros-foxy-nav2
+ 1655  sudo apt install ros-foxy-navigation2 ros-foxy-nav2-bringup
+ 1656  ros2 launch mybot_navigation2 navigation2.launch.py map:=$HOME/map.yaml
+ 1657  ros2 launch mybot_navigation2 navigation2.launch.py map:=$HOME/map
+ 1658  ros2 launch mybot_navigation2 navigation2.launch.py map:=$HOME/map.yaml 
+ 1659  ros2 launch mybot_navigation2 navigation2.launch.py map:=$HOME/map.yaml use_sim_time:=True
+ 1660  ros2 topic list
+ 1661  ros2 launch mybot_navigation2 navigation2.launch.py map:=$HOME/map.yaml use_sim_time:=True
+ 1662  apt-cache ros-foxy-nav2
+ 1663  apt-cache search ros-foxy-nav2
+ 1664  sudo apt install ros-foxy-nav2-map-server ros-foxy-nav2-planner
+ 1665  ros2 launch mybot_navigation2 navigation2.launch.py map:=$HOME/map.yaml
+ 1666  ros2 run tf2_ros tf2_echo odom chassis
+ 1667  ros2 topic list
+ 1668  ros2 run tf2_ros tf2_echo odom base_link
+ 1669  ros2 run tf2_ros tf2_echo list
+ 1670  ros2 run rqt_tf_tree rqt_tf_tree
+ 1671  rqt_graph
+ 1672  rostopic list
+ 1673  ros2 topic list
+ 1674  rqt_graph
+ 1675  rqt_graph
+ 1676  rviz2
+ 1677  ros2 launch mybot_gazebo_ros2 mybot_gazebo.launch.py 
+ 1678  vi .bashrc
+ 1679  . bashrc
+ 1680  ros2 topic  list
+ 1681  rqt_graph
+ 1682  history
+ 1683  ros2 launch mybot_navigation2 navigation2.launch.py map:=$HOME/map.yaml
+ 1684  ros2 launch mybot_navigation2 navigation2.launch.py map:=$HOME/map.yaml use_sim_time:=True
+ 1685  rqt_graph
+ 1686  ros2 rqt_tf_tree rqt_tf_tree
+ 1687  ros2 run rqt_tf_tree rqt_tf_tree
+ 1688  apt-cache search ros-foxy-rqt
+ 1689  sudo apt install ros-foxy-rqt-tf-tree
+ 1690  rqt_tf_tree
+ 1691  ros2 run rqt_tf_tree rqt_tf_tree
+ 1692  ros2 run rqt_tf_tree rqt_tf_tree --force-discover
+ 1693  rivz2
+ 1694  rviz2
+ 1695  ros2 run rqt_tf_tree rqt_tf_tree
+ 1696  rqt_graph
+ 1697  ros2 run rqt_tf_tree rqt_tf_tree
+ 1698  ros2 launch mybot_navigation2 navigation2.launch.py map:=/home/jetsonai/map.yaml
+ 1699  ros2 launch mybot_navigation2 navigation2.launch.py map:=/home/jetsonai/map.yaml use_sim_time:=True
+ 1700  ros2 launch mybot_gazebo_ros2 mybot_gazebo.launch.py 
+ 1701  ros2 launch mybot_gazebo_ros2 mybot_gazebo.launch.py use_sim_time:=true
+ 1702  ws
+ 1703  colcon build
+ 1704  ws
+ 1705  colcon build
+ 1706  ros2 launch mybot_gazebo_ros2 mybot_gazebo.launch.py 
+ 1707  history
+ 1708  ros2 launch mybot_gazebo_ros2 mybot_gazebo.launch.py use_sim_time:=true
+ 1709  ifconfig
+ 1710  ros2 launch mybot_gazebo_ros2 mybot_gazebo.launch.py use_sim_time:=true
+ 1711  ros2 launch mybot_gazebo_ros2 mybot_gazebo.launch.py
+ 1712  history
+ 1713  ros2 launch mybot_navigation2 navigation2.launch.py map:=$HOME/map.yaml use_sim_time:=True
+ 1714  watch -d -n 0.5 nvidia-smi
+ 1715  ls
+ 1716  w
+ 1717  ws
+ 1718  ls
+ 1719  ws
+ 1720  . install/setup.
+ 1721  . install/setup.bash 
+ 1722  ros2 launch mybot_gazebo_ros2 mybot_gazebo.launch.py 
+ 1723  ros2 launch mybot_gazebo_ros2 mybot_gazebo.launch.py use_sim_time=True
+ 1724  ros2 launch mybot_gazebo_ros2 mybot_gazebo.launch.py use_sim_time:=True
+ 1725  history
+ 1726  ros2 launch mybot_navigation2 navigation2.launch.py map:=$HOME/map.yaml use_sim_time:=True
+ 1727  ifconfig
+ 1728  sudo vim /etc/samba/smb.conf
+ 1729  cat .bashrc
+ 1730  history
+ 1731  ros2 launch mybot_gazebo_ros2 mybot_gazebo.launch.py use_sim_time:=True
+ 1732  ls
+ 1733  mv mybot_ros2_ws/ _mybot_ros2_ws/
+ 1734  mkdir mybot_ros2_ws
+ 1735  cd mybot_ros2_ws/
+ 1736  mkdir src
+ 1737  cd src/
+ 1738  git clone https://github.com/jetsonai/mybot_ros2_ws
+ 1739  ls
+ 1740  colcon build
+ 1741  cd ..
+ 1742  rm -rf src
+ 1743  mkdir src
+ 1744  cd src/
+ 1745  git clone https://github.com/jetsonai/mybot_ros2_ws
+ 1746  cd ..
+ 1747  colcon build
+ 1748  cd
+ 1749  colcon buildcd 
+ 1750  cd
+ 1751  rm -rf mybot_ros2_ws/
+ 1752  git clone https://github.com/jetsonai/mybot_ros2_ws
+ 1753  cd mybot_ros2_ws/
+ 1754  colcon build
+ 1755  ls
+ 1756  ls src/
+ 1757  cd
+ 1758  gazebo
+ 1759  source /home/jetsonai/mybot_ros2_ws/install/setup.bash
+ 1760  ros2 topic list
+ 1761  ros2 topic echo /scan
+ 1762  source /home/jetsonai/mybot_ros2_ws/install/setup.bash
+ 1763  cp ~/myworld.world  ~/mybot_ros2_ws/src/mybot_gazebo_ros2/worlds/
+ 1764  rviz2
+ 1765  ros2 launch mybot_gazebo_ros2 mybot_gazebo_rviz.launch.py
+ 1766  source /home/jetsonai/mybot_ros2_ws/install/setup.bash
+ 1767  history
+ 1768  history | grep teleop
+ 1769  ros2 run rsaem_teleop teleop_keyboard
+ 1770  ros2 launch rsaem_teleop teleop_keyboard.py
+ 1771  ls
+ 1772  ls mybot_ros2_ws/src/
+ 1773  cd mybot_ros2_ws/
+ 1774  ls
+ 1775  . ./install/setup.bash 
+ 1776  ls src/mybot_teleop/launch/
+ 1777  cd
+ 1778  ls
+ 1779  ls rsaem_ws/
+ 1780  ls rsaem_ws/src
+ 1781  cd rsaem_ws/
+ 1782  ls
+ 1783  ls src/
+ 1784  cd src/rsaem_teleop/
+ 1785  ls
+ 1786  cd ..
+ 1787  cd
+ 1788  ros2 run mybot_teleop teleop_keyboard 
+ 1789  cat .bashrc
+ 1790  source /home/jetsonai/mybot_ros2_ws/install/setup.bash
+ 1791  cd mybot_ros2_ws/
+ 1792  ls
+ 1793  cd 
+ 1794  source /home/jetsonai/mybot_ros2_ws/install/setup.bash
+ 1795  ros2 launch mybot_gazebo_ros2 mybot_gazebo.launch.py
+ 1796  sudo gparted
+ 1797  sudo apt install gparted
+ 1798  sudo gparted
+ 1799  gparted
+ 1800  df -h
+ 1801  sudo gparted
+ 1802  df -a
+ 1803  mount
+ 1804  sudo gparted
+ 1805  mount
+ 1806  sudo fdisk -l
+ 1807  cd
+ 1808  vim .bashrc
+ 1809  vim .bashrc
+ 1810  . .bashrc
+ 1811  gazbo
+ 1812  gazebo
+ 1813  mkdir -p urdf_ws/src
+ 1814  cd urdf_ws/src/
+ 1815  git clone https://github.com/jetsonai/urdf_tutorial_ros2
+ 1816  cd ..
+ 1817  colcon build --symlink-install
+ 1818  source ./install/setup.bash
+ 1819  ros2 launch urdf_tutorial_ros2 display_urdf.launch.py 
+ 1820  cd ~/urdf_ws/src/urdf_tutorial_ros2/urdf
+ 1821  check_urdf 05-visual.urdf
+ 1822  ls
+ 1823  check_urdf 08-macroed.urdf.xacro
+ 1824  cp ~/myworld.world  ~/mybot_ros2_ws/src/mybot_gazebo_ros2/worlds/
+ 1825  ros2 launch mybot_gazebo_ros2 mybot_gazebo_rviz.launch.py
+ 1826  cd
+ 1827  ls
+ 1828  cd mybot_ros2_ws
+ 1829  colcon build
+ 1830  ros2 launch mybot_gazebo_ros2 mybot_gazebo.launch.py
+ 1831  ros2 run nav2_map_server map_saver_cli -f ~/map2
+ 1832  ros2 launch mybot_navigation2 navigation2.launch.py use_sim_time:=True, map:=$HOME/map2.yaml
+ 1833  ros2 run mybot_teleop teleop_keyboard
+ 1834  ls
+ 1835  history | grep mybot_cartographer
+ 1836  ros2 run mybot_teleop teleop_keyboard
+ 1837  cd
+ 1838  vim .bashrc
+ 1839  ros2 launch mybot_gazebo_ros2 mybot_gazebo_rviz.launch.py
+ 1840  ros2 launch mybot_cartographer cartographer.launch.py
+ 1841  ros2 launch mybot_gazebo_ros2 mybot_gazebo_rviz.launch.py
+ 1842  colcon build
+ 1843  colcon build --packages-select rsaem_msgctl
+ 1844  colcon build
+ 1845  . ./install/setup.bash 
+ 1846  colcon build
+ 1847  cd
+ 1848  gazebo
+ 1849  cd rsaem_ws/
+ 1850  , ./install/setup.bash 
+ 1851  . ./install/setup.bash 
+ 1852  ros2 launch rsaem_cartographer cartographer.launch.py use_sim_time:=True
+ 1853  ros2 run mybot_teleop teleop_keyboard
+ 1854  ros2 run nav2_map_server map_saver_cli -f ~/map
+ 1855  ros2 run nav2_map_server map_saver_cli -f ~/map2
+ 1856  ros2 run nav2_map_server map_saver_cli -f ~/map2  use_sim_time:=True
+ 1857  cd rsaem_ws/
+ 1858  . ./install/setup.bash 
+ 1859  ros2 launch rsaem_navigation2 navigation2.launch.py map:=$HOME/map.yaml  use_sim_time:=True
+ 1860  vim .bashrc
+ 1861  cd
+ 1862  vim .bashrc
+ 1863  ros2 launch rsaem_navigation2 navigation2.launch.py map:=$HOME/map.yaml  use_sim_time:=True
+ 1864  ros2 run tf2_ros tf2_echo odom base_link
+ 1865  ros2 run tf2_ros tf2_echo odom chassis
+ 1866  ros2 launch mybot_gazebo_ros2 mybot_gazebo_rviz.launch.py
+ 1867  ros2 launch mybot_navigation2 navigation2.launch.py map:=$HOME/map2.yaml use_sim_time:=True
+ 1868  history
+ 1869  ros2 launch mybot_gazebo_ros2 mybot_gazebo.launch.py
+ 1870  history
+ 1871  ros2 launch mybot_gazebo_ros2 mybot_gazebo.launch.py
+ 1872  ros2 run nav2_map_server map_saver_cli -f ~/map
+ 1873  ros2 launch mybot_cartographer cartographer.launch.py use_sim_time:=True
+ 1874  ros2 launch mybot_navigation2 navigation2.launch.py map:=$HOME/map.yaml use_sim_time:=True
+ 1875  ros2 run mybot_teleop teleop_keyboard
+ 1876  ros2 launch rsaem_cartographer cartographer.launch.py use_sim_time:=True
+ 1877  ros2 launch mybot_navigation2 navigation2.launch.py map:=$HOME/map.yaml use_sim_time:=True
+ 1878  ros2 launch mybot_cartographer cartographer.launch.py
+ 1879  ros2 launch mybot_cartographer cartographer.launch.py use_sim_time:=True
+ 1880  ros2 run mybot_teleop teleop_keyboard
+ 1881  ros2 run nav2_map_server map_saver_cli -f ~/map
+ 1882  history
+ 1883  ifconfig
+ 1884  ros2 launch mybot_gazebo_ros2 mybot_gazebo.launch.py
+ 1885  ros2 topic list
+ 1886  ros2 launch mybot_navigation2 navigation2.launch.py map:=$HOME/map.yaml use_sim_time:=True
+ 1887  ros2 topic list
+ 1888  history
+ 1889  history > history_mybot.txt

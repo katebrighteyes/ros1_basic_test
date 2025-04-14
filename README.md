@@ -140,6 +140,20 @@ rosrun hls_lfcd_lds_driver view_hlds_laser.launch
 
 ## Lidar 테스트
 
+#1) EXECUTE roscore
+
+##창을 새로 띄운 후 roscore 실행
+
+roscore
+
+#2) turtle ##또 다른 창에서 거북이 창 실행
+
+rosrun turtlesim turtlesim_node
+
+#3)move ##또 다른 창에서 키 동작 오퍼 기능 실행
+
+rosrun turtlesim turtle_teleop_key
+
 <새터미널> 
 
 rosrun ros_sensor_test lidar_nodeL.py

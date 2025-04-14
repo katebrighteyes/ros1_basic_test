@@ -140,19 +140,28 @@ rosrun hls_lfcd_lds_driver view_hlds_laser.launch
 
 ## Lidar 테스트
 
-#1) EXECUTE roscore
 
-##창을 새로 띄운 후 roscore 실행
+source /opt/ros/foxy/setup.bash
 
-roscore
+source /home/user/mybot_ros2_ws/install/setup.bash
+
+export ROS_DOMAIN_ID=11
+
+#alias ros2ws='source ~/ros2_ws/install/setup.bash; echo \"ROS2 humble is activated.\"'
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+export GALLIUM_DRIVER=llvmpipe
+
+-------------------------------------
 
 #2) turtle ##또 다른 창에서 거북이 창 실행
 
-rosrun turtlesim turtlesim_node
+ros2 run turtlesim turtlesim_node
 
 #3)move ##또 다른 창에서 키 동작 오퍼 기능 실행
 
-rosrun turtlesim turtle_teleop_key
+ros2 run turtlesim turtle_teleop_key
 
 <새터미널> 
 
